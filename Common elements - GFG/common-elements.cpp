@@ -22,11 +22,14 @@ class Solution
                     i++;
                     j++;
                     k++;
-                }else if(A[i] < B[j]){
+                }
+                if(A[i] < B[j]){
                     i++;
-                }else if(B[j] < C[k]){
+                }
+                if(B[j] < C[k]){
                     j++;
-                }else if(C[k] < A[i]){
+                }
+                if(C[k] < A[i]){
                     k++;
                 }
             }
